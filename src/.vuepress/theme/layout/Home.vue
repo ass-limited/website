@@ -35,6 +35,15 @@
       >
         <h2>{{ feature.title }}</h2>
         <p>{{ feature.details }}</p>
+        <p>
+          <NavLink
+            v-if="feature.actionText && feature.actionLink"
+            class="action-button"
+            :item="{text: feature.actionText, link: feature.actionLink}"
+          />
+        </p>
+        <img class="feature-image" v-if="feature.image" :src="feature.image" :alt="feature.title">
+
       </div>
     </div>
 
@@ -125,6 +134,9 @@ export default {
       color lighten($textColor, 10%)
     p
       color lighten($textColor, 25%)
+    img
+      border-radius: 999em
+      margin: 1em
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor

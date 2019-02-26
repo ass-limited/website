@@ -12,6 +12,10 @@ features:
     details: Softwareentwickler
 -
     title: Peter Schröder
-    details: Softwareentwickler
+    details: Softwareentwickler 🥳
+    image: https://de.gravatar.com/userimage/8363571/8747ce2f4f88681b092ef0f84c7dece9.png
+    actionText: '@phoet on Github'
+    actionLink: 'https://github.com/phoet'
+
 footer: Ⓒ Antischeinselbständigkeits LTD 🚀
 ---
