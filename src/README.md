@@ -17,5 +17,5 @@ features:
     actionText: '@phoet on Github'
     actionLink: 'https://github.com/phoet'
 
-footer: Ⓒ Antischeinselbständigkeits LTD 🚀
+footer: Ⓒ Antischeinselbständigkeits LTD (in Gründung) 🚀
 ---
